@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Educación - Hoja de vida</title>
+	</head>
+	<body style="font-family:sans-serif;">
+		<header>
+			<div style="text-align:center;border-bottom:solid 1px #AAA;">
+				<img src="img/logo_name.svg" alt="Logo" title="Logo">
+			</div>
+		</header>
+		<h1>Hoja de Vida</h1>
+		<h2>Francisco Javier Nuñez Ramirez</h2>
+		<h3>08/03/1998 - Zapopan/Jal.</h3>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<!--<li><a href="educacion.html">Educación</a></li>-->
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+		<hr style="border:0;border-bottom:solid 1px #AAA;">
+		<h2>Educación</h2>
+		<table border="1" cellpadding="15" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2013</td>
+					<td>Cetis 14</td>
+					<td>Guadalajara - Jalisco</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2010</td>
+					<td>Secundaria Tecnica N.116</td>
+					<td>Guadalajara - Jalisco</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2005</td>
+					<td>Escuela primaria Mariano Barcenas</td>
+					<td>Guadalajara - Jalisco</td>
+					<td>Si</td>
+				</tr>
+			</tbody>
+		</table>
+		<form action="">
+			<h2>Agregar estudios</h2>
+			<label for="fYear"><strong>Año: </strong></label>
+			<select name="year" id="fYear">
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+				<option value="2014">2014</option>
+				<option value="2013">2013</option>
+				<option value="2012">2012</option>
+				<option value="2011">2011</option>
+				<option value="2010">2010</option>
+				<option value="2009">2009</option>
+				<option value="2008">2008</option>
+				<option value="2007">2007</option>
+				<option value="2006">2006</option>
+				<option value="2005">2005</option>
+				<option value="2004">2004</option>
+				<option value="2003">2003</option>
+				<option value="2002">2002</option>
+				<option value="2001">2001</option>
+				<option value="2000">2000</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+			</select>
+			<br/><br/>
+			<label for="fIns"><strong>Institución: </strong></label>
+			<input type="text" id="fIns" required />
+			<br/><br/>
+			<label for="fSite"><strong>Lugar: </strong></label>
+			<textarea name="" id="fSite" cols="30" rows="10"></textarea>
+			<br/><br/>
+			<strong>Culminó? </strong>
+			<input id="fCy" type="radio" name="c" value="true"><label for="fCy">Si</label>
+			<input id="fCn" type="radio" name="c" value="false"><label for="fCn">No</label>
+			<br/><br/>
+			<input type="submit" value="Enviar">
+		</form>
+		<br/><br/>
+		<footer style="border-top:solid 1px #AAA;">
+			<ul>
+				<li><strong>Email:</strong> <a href="mailto:japisnura@live.com.mx">japisnura@live.com.mx</a></li>
+				<li><strong>Teléfono:</strong> 33-17-42-93-00</li>
+			</ul>
+		</footer>
+	</body>
+</html>

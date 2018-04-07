@@ -1,0 +1,22 @@
+<svg width="660" height="195" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="197" width="662" y="-1" x="-1"/>
+  <g display="none" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_2"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(7.881013120991777,0,0,5.104263582123293,-1903.8686319989251,-891.2960912784579) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="202.010312" x="252.801464" stroke-width="0" fill="#000000">FJNR</text>
+  <rect stroke="#ffffff" id="svg_10" height="101" width="5" y="47" x="329.5" stroke-opacity="null" stroke-width="NaN" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_11" height="101" width="5" y="47" x="467.5" stroke-opacity="null" stroke-width="NaN" fill="#ffffff"/>
+  <rect fill="#000000" stroke-width="1.5" x="126.5" y="103" width="40.000001" height="4" id="svg_4" stroke="#000"/>
+  <rect fill="#ffffff" stroke-width="1.5" x="263.5" y="74" width="10" height="31" id="svg_6" stroke="#ffffff"/>
+  <rect fill="#ffffff" stroke-width="1.5" x="399.5" y="64" width="10" height="13.999999" id="svg_7" stroke="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_9" height="101" width="5" y="47" x="121.5" stroke-opacity="null" stroke-width="NaN" fill="#ffffff"/>
+  <rect stroke="#000000" transform="rotate(47.88077163696289 534.1840209960936,111.5341491699219) " id="svg_3" height="9.571868" width="38.294933" y="106.748218" x="515.036573" stroke-width="1.5" fill="#000000"/>
+ </g>
+</svg>
