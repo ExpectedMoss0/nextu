@@ -1,0 +1,51 @@
+html,body{height:100%;}
+body{
+	color:#222;
+	background-color:#FFF;
+	background-image:url('../img/wall.jpg');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+#bg{
+	position:fixed;
+	width:100%;
+}
+#navBar{
+	float:right;
+	text-align:right;
+	padding:16px 0;
+	width:100%;
+}
+
+#main{
+	position:absolute;
+	width:100%;
+	z-index:2;
+}
+
+#socialMedia{
+	list-style:none;
+}
+.social-icon{
+	display:block;
+	margin-bottom:10px;
+	width:32px;
+	height:32px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.social-icon:last-child{margin-top:4px;}
+.social-icon.facebook{background-image:url('../icons/logo-facebook.png');}
+.social-icon.twitter{background-image:url('../icons/logo-twitter.png');}
+.social-icon.instagram{background-image:url('../icons/logo-instagram.png');}
+
+.badge{
+	margin-bottom:16px;
+	padding:10px;
+	background-color:#FFF;
+}
+.badge.mNone{margin-bottom:0;}
+
+.material-icons.icon{font-size:20px;margin-top:6px;}

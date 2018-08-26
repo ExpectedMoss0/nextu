@@ -1,0 +1,39 @@
+html,body{height:100%;}
+body{
+	color:#FFF;
+	background-color:#FFF;
+	background-image:url('../img/wall.jpg');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+#main{
+	background-color:rgba(0,0,0,.6);
+}
+.badgeS{
+	margin-bottom:16px;
+	padding:16px;
+	background-color:rgba(256,256,256,.1);
+	box-sizing:border-box;
+}
+.comment{
+	margin-top:20px;
+	color:#FFF;
+}
+
+.menu .is-active>a{
+	color:#222;
+	background-color:rgba(256,256,256,.6);
+}
+.menu .is-active>a:hover{
+	color:#222;
+	background-color:rgba(256,256,256,.6);
+}
+.menu a{
+	color:#FFF;
+	background-color:rgba(256,256,256,.1);
+}
+.menu a:hover{
+	background-color:rgba(256,256,256,.2);
+}
