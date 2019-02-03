@@ -1,0 +1,20 @@
+<div class="bg">
+	<app-navbar></app-navbar>
+	<div class="row content">
+		<div id="pane" class="col s12 m10 l8 offset-s0 offset-m1 offset-l2">
+			<div class="row">
+				<div class="left">
+					<h4>Catálogo de productos</h4>
+				</div>
+				<div class="right col s12 m4 l4">
+					<div class="input-field col s12 m12 l12">
+						<input (change)="query($val)" id="query" type="text" class="validate" placeholder="Buscar producto">
+					</div>
+				</div>
+			</div>
+			<div class="row" id="products">
+				
+			</div>
+		</div>
+	</div>
+</div>

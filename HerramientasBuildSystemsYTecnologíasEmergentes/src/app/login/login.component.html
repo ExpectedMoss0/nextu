@@ -1,0 +1,23 @@
+<div id="main">
+	<div class="bg-fix s_centered row">
+		<div class="box col s8 m6 l4 pull-s2 pull-m3 pull-l4">
+			<h5 class="title">Inicia sesión</h5>
+			<form action="" class="col s12 m12">
+				<div class="row input-field col s12 m12 l12">
+					<label for="email">Correo electrónico</label>
+					<input id="email" type="email" class="validate" required>
+				</div>
+				<div class="row input-field col s12 m12 l12">
+					<label for="password">Contraseña</label>
+					<input id="password" type="password" class="validate" required>
+				</div>
+				<div class="row">
+					<div id="errorMsg" class="col s12 m12 l12"></div>
+				</div>
+				<div class="btn-area">
+					<input type="submit" (click)="login()" class="waves-effect waves-light btn" value="Ingresar">
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

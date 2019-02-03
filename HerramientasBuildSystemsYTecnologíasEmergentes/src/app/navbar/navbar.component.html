@@ -1,0 +1,16 @@
+<div class="row">
+	<div id="navBar" class="col s12 m10 l8 offset-s0 offset-m1 offset-l2">
+		<h5 class="left">La bodega</h5>
+		<div class="buttons right">
+			<a (click)="logout()" class="link s_centered">
+				<i class="material-icons">exit_to_app</i>
+			</a>
+			<a [routerLink]="['/shoppingcart']" class="link s_centered">
+				<i class="material-icons">shopping_cart</i>
+			</a>
+			<a [routerLink]="['/panel']" class="link s_centered">
+				<i class="material-icons">store</i>
+			</a>
+		</div>
+	</div>
+</div>
