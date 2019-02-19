@@ -1,0 +1,78 @@
+/* ------ Special styles ------ */
+.s_centered{
+    -ms-display:flex;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.row{margin-bottom:0;}
+
+input{outline:none;}
+
+#navBar{
+	background-color:#FFF;
+	border-radius:0 0 5px 5px;
+}
+#navBar .buttons .link{
+	float:right;
+	position:relative;
+	cursor:pointer;
+	width:50px;
+	height:50px;
+	color:#000;
+}
+#navBar .buttons .link #pop{
+	display:none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background-color:red;
+	width:18px;
+	height:18px;
+	border-radius:50%;
+	color:#FFF;
+	font-size:14px;
+}
+
+body{
+	background-image:url('../img/main-fondo.jpg');
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.row .col.pane{
+	background-color:#FFF;
+	padding-bottom:15px;
+	border-radius:5px;
+}
+.pane .card-image{
+	
+}
+.pane .card-title{
+	margin-bottom:-66px;
+	width:100%;
+	padding:15px;
+	color:#000;
+}
+.pane .card-content{
+	padding:66px 15px 60px;
+}
+.pane .card-content .options-badge{
+	width:89%;
+	position:absolute;
+	bottom:15px;
+}
+.pane .card-content .options-badge .selectBadge input{
+	float:right;
+	width:42px;
+	height:28px;
+	margin:0 0 0 4px;
+}
+.pane .btns{
+	cursor:pointer;
+	padding:3px 8px;
+	border-radius:2px;
+}
+.pane .btns.show-more{float:left;background-color:#0022CC;color:#FFF;}
+.pane .btns.add{float:right;background-color:#CC8800;color:#FFF;}
+.pane .btns.back{margin-top:15px;float:left;background-color:#CCC;color:#222;padding:8px 18px;}

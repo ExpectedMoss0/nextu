@@ -1,0 +1,16 @@
+Usuarios en la base de datos de firebase:
+0{
+	email: "japisnura@live.com.mx"
+	nombre: "Francisco Nunez"
+	password: 12345
+}
+1{
+	email: "example@live.com"
+	nombre: "Pedro Rosado"
+	password: 12
+}
+2{
+	email: "test@test.com"
+	nombre: "TESTING"
+	password: 12345
+}
